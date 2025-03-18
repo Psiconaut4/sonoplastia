@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: pink;
+}
+body{
+    background-image: url('img/Banner_Vai_dar_Namoro_B.jpg');
+    opacity: 1;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title{
+    color: #CC3335;
+    margin: 10vh auto;
+    text-align: center;
+    font-size: calc(2vw + 20px);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255),
+                 0px 0px 10px rgb(255, 255, 255);
+}
+.container{
+    width: 80vw;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.key{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.61);
+    color: #CC3335;
+    font-size: calc(2vw + 20px);
+    border: 2px solid pink;
+    user-select: none;
+    cursor: pointer;
+}
